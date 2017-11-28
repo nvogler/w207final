@@ -17,9 +17,9 @@ https://www.kaggle.com/c/sf-crime
 - 'X' and 'Y' coordinates were trimmed to four digits of significance and paired to allow larger ‘plots’ of land to be accurately related
 - Holidays were identified using the Pandas built-in calendar for US holidays
 - Dates feature was broken into the following:
--- Hour of the Day
--- Day of the week (dummy variable)
--- Week of the year 
+  -- Hour of the Day
+  -- Day of the week (dummy variable)
+  -- Week of the year 
 
 Matplotlib to visualize parameter optimization and identify knees
     
