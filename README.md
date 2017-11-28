@@ -4,13 +4,13 @@
 https://www.kaggle.com/c/sf-crime
 
 ## Initial Features
-- Category     Category of the crime incident. This is the target variable for prediction
-- Dates        Timestamp of the crime incident
-- DayOfWeek    The day of the week
-- PdDistrict   Name of the Police Department District
-- Address      The approximate street address of the crime incident 
-- X            Longitude
-- Y            Latitude
+- Category     -Category of the crime incident. This is the target variable for prediction
+- Dates        -Timestamp of the crime incident
+- DayOfWeek    -The day of the week
+- PdDistrict   -Name of the Police Department District
+- Address      -The approximate street address of the crime incident 
+- X            -Longitude
+- Y            -Latitude
 
 ## Engineered Features
 
