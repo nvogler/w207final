@@ -7,6 +7,9 @@ https://www.kaggle.com/c/sf-crime
 - Add zip codes
 - Add unemployment data
 - Add weather data (pending datasets)
+- Add multiclass
+
+df_train['MultiCrime'] = df_train[df_train.columns.difference(['Category'])].duplicated(keep=False)
 
 ## Initial Features
 - Category     -Category of the crime incident. This is the target variable for prediction
