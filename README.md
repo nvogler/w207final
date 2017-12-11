@@ -3,14 +3,6 @@
 
 https://www.kaggle.com/c/sf-crime
 
-## TODO
-- Add zip codes
-- Add unemployment data
-- Add weather data (pending datasets)
-- Add multiclass
-
-df_train['MultiCrime'] = df_train[df_train.columns.difference([['Category', 'Resolution', 'Descript'])]].duplicated(keep=False)
-
 ## Initial Features
 - Category     -Category of the crime incident. This is the target variable for prediction
 - Dates        -Timestamp of the crime incident
@@ -30,9 +22,7 @@ df_train['MultiCrime'] = df_train[df_train.columns.difference([['Category', 'Res
   -- Week of the year 
 
 Matplotlib to visualize parameter optimization and identify knees
-    
-Principle Component Analysis was used initially for dimensionality reduction. Given the limited number of features relative to the sample size, significant reductions were not expected. PCA was used more or less to evaluate to quality of the additional features.
-
+   
 ## Baseline Model
 #### K-NN
 Our baseline model for this analysis was a K-NN model with K=50.
