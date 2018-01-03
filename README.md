@@ -28,28 +28,12 @@ Matplotlib to visualize parameter optimization and identify knees
 Our baseline model for this analysis was a K-NN model with K=50.
 
 ## Additional Models
-#### Logistic Regression
-Final Parameters:
-
-Optimizations and methods:
-- L1 regularization for  dimensionality reduction
-- L2 regularization using remaining features
-
 #### Neural Network
-Final Parameters:
-
 Optimizations and methods:
 - Keras (on top of TensorFlow) for NNs
 - Sigmoid activation and ReLU based models
 - Modeled with and without dropouts
 
-#### Support Vector Machines
-
-Final Parameters:
-
-Optimizations and methods:
-- Linear (not expecting great results) and non-linear kernels
-- GridSearchCV for parameter optimization
 #### Random Forests
 Final Parameters:
 
